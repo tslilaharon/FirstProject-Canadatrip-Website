@@ -398,3 +398,96 @@ body {
         margin-left: 0px;
     }
 }
+
+/* תגובות*/
+
+
+.Comments {
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 80px;
+
+}
+
+.Customer {
+    margin-right: 10px;
+}
+
+.Customer {
+    width: 250px;
+    height: 250px;
+    padding: 50px 10px;
+    box-shadow: 0 12px 10px 0 rgba(0, 0, 50, 0.5);
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+
+}
+
+.Customer img {
+    top: -50px;
+    position: absolute;
+    border: 10px solid white;
+}
+
+.user {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.user:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.Customer h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.Customer h5 {
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(180, 177, 177);
+}
+
+.comments p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.Customer {
+    background-image: url(images/bg1.jpg);
+    transition: 1.2s;
+}
+
+.Customer:hover {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    color: black;
+    opacity: 1;
+  
+}
+
+.Customer h3 {
+    color: rgb(0, 139, 128);
+    text-shadow: rgb(255, 255, 255) 1px -1px;
+}
+
+.star_comm {
+    margin-top: -40px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    color: rgb(0, 139, 128);
+}
+
+@media only screen and (max-width:900px) {
+    .Customer {
+        margin-bottom: 100px;
+        margin-left: 60px;
+    }
+
+}
