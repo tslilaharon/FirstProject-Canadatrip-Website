@@ -9,3 +9,42 @@ body {
     min-height: 100vh;
     font-family: 'lato', sans-serif;
 }
+
+/*הגדרת הודיאו */
+.video_main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_main video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*הגדרת ההכותרת בודיאו */
+
+.video_main h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.712);
+    font-size: 20vw;
+    font-weight: 1300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+    font-family: 'Lilita One', cursive;
+
+}
