@@ -491,3 +491,124 @@ body {
     }
 
 }
+
+/* סיומת האתר*/
+
+.footer {
+    background-image: url(images/footer.png);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 45px 50px;
+    height: 300px;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.footer .footer-left p {
+    color: #8f9296;
+    font-size: 20px;
+    margin: 0;
+    text-shadow: #97919177 1px -1px;
+
+}
+
+/*לינקים*/
+.footer- p.footer-links {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    padding: 0;
+    transition: ease .25s;
+}
+
+.footer p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+.footer .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer .footer-links .link-1:before {
+    content: none;
+}
+
+.footer .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 3px;
+    margin-top: 150px;
+    transition: .25s;
+}
+
+.footer .footer-right a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.footer p.footer-links a:hover {
+    color: rgb(110, 155, 156);
+    font-weight: 600;
+}
+
+
+.footer .footer-right .facebook:hover {
+    background-color: rgb(19, 21, 146);
+
+}
+
+.footer .footer-right .twitter:hover {
+    background-color: rgb(45, 175, 207);
+
+}
+
+.footer .footer-right .instagram:hover {
+    background-color: rgb(136, 31, 118);
+
+}
+
+.footer .footer-right .google:hover {
+    background-color: rgb(189, 8, 24);
+
+}
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right {
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
