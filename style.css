@@ -243,3 +243,57 @@ body {
 }
 
 
+
+/* ניוזלטר*/
+
+.Newsletter {
+    background-image: url(images/12.jpg);
+    background-size: cover;
+    padding: 100px;
+    height: 400px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.Newsletter .content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.Newsletter .content h2 {
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(77, 72, 72, 0.301) -2px 3px;
+}
+
+.Newsletter .content .form-control {
+    height: 50px;
+    border-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(44, 45, 48, 0.322) -3px 3px;
+}
+
+.Newsletter .content .form-control :focus {
+    box-shadow: none;
+    border-radius: 2px solid rgb(0, 0, 0);
+}
+
+.Newsletter .content .btn {
+    margin-top: 10px;
+    min-height: 40px;
+    border-radius: 30px;
+    background-color: rgba(181, 233, 247, 0.644);
+}
+
+.btn {
+    color: rgba(30, 22, 54, 0.685);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.btn:hover {
+    background-color: rgb(255, 251, 251);
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
