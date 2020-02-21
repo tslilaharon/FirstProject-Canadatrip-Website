@@ -48,3 +48,72 @@ body {
     font-family: 'Lilita One', cursive;
 
 }
+
+/*הגדרת מבנה הכותרת המוצגת באתר */
+
+.title-style h1 {
+    padding: 40px 0;
+    color: rgb(77, 138, 138);
+    text-shadow: rgba(173, 166, 166, 0.671) -3px 3px;
+}
+
+.title-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+    margin-bottom: 60px;
+}
+
+.title-style ::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: rgba(95, 158, 160, 0.719);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.title-style ::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: rgba(95, 158, 160, 0.685);
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    z-index: -1;
+
+}
+
+.travel-blog {
+    padding: 15px;
+    font-family: 'Lilita One', cursive;
+    font-style: inherit;
+
+}
+
+.card_travel {
+    margin-top: 100px;
+}
+
+.card_travel h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width:900px) {
+    .title-style h1 {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .travel-blog {
+        margin-left: 20px;
+    }
+}
